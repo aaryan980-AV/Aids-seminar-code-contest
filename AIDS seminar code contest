@@ -1,0 +1,36 @@
+def swap_case(s):
+
+return s.swapcase()
+
+S = "HackerRank.com Present \"Pythonist 2\"."
+
+a = swap_case(s)
+
+print (a)
+
+
+
+
+def swap_case(s):
+
+string =
+
+for i ins:
+
+if i.isupper() == True:
+
+string+=(i.lower())
+
+else:
+
+string+=(i.upper())
+
+return string
+
+if __name__ == '__main__':
+
+S = input()
+
+result = swap_case(s)
+
+print(result)
